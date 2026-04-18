@@ -415,6 +415,7 @@ h1, h2, h3, h4 {
   transform: translateY(-2px);
 }
 .hero__social-icon--wa:hover { background: #25D366; border-color: #25D366; }
+.hero__social-icon--li:hover { background: #0A66C2; border-color: #0A66C2; }
 
 @media (min-width: 900px) {
   .hero__inner { grid-template-columns: 1.15fr 1fr; }

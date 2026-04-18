@@ -32,13 +32,13 @@ grep -rn "TODO" . && grep -rn "Sample testimonials" .
 
 | Item | Where | What to do |
 |---|---|---|
-| **WhatsApp number** | `index.html` — hero social row *and* floating pill (`.wa-fab`) | Replace `91XXXXXXXXXX` with country code + number (no `+`). Two places — keep them in sync. |
-| Business email | `index.html` hero + footer + `BOOKING_EMAIL` in `script.js` | Replace `priyanjali.jain@email.com` with the real inbox in **all three** spots |
-| Instagram handle | `index.html` hero + footer + JSON-LD `sameAs` | Confirm `@priyanjalijain.nutrition` or update the URL (three spots) |
+| Instagram link | `index.html` hero + footer + JSON-LD `sameAs` | Currently points at `@fiteloapp` (Priyanjali's employer). Swap to a personal handle when one exists. |
 | LinkedIn link | `index.html` footer | Currently removed — re-add an `<a>` inside `.footer__socials` when ready |
 | Testimonials | `index.html` — testimonials section | Replace the three sample quotes with real client stories (written consent required) |
 | Portrait image | `assets/priyanjali.jpg` | Real 550×550 headshot is in place — swap for a higher-res/updated version any time. Original untouched at `assets/priyanjali-original.jpg` |
 | Calendly URL | Modal block in `index.html` | See §4 below |
+
+**In place and live:** WhatsApp (`+91 91403 98180`), email (`priyanjalijain81@gmail.com`).
 
 Tip: on macOS you can find-and-replace across all files in VS Code with `⇧⌘H`.
 

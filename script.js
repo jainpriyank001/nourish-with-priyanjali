@@ -122,7 +122,7 @@
      delete this form block. Until then, submissions open the user's mail
      client with a prefilled message to the address below.
      ------------------------------------------------------------------- */
-  const BOOKING_EMAIL = 'priyanjali.jain@email.com'; // TODO: swap for the real business inbox
+  const BOOKING_EMAIL = 'priyanjalijain81@gmail.com';
   const form = document.getElementById('booking-form');
   if (form) {
     form.addEventListener('submit', (e) => {
